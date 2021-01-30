@@ -19,21 +19,27 @@ MonoBehaviour:
     - Assets/BackgroundPics/bg1.png.meta
     - Assets/BackgroundPics/bg2.png
     - Assets/BackgroundPics/bg2.png.meta
+    - Assets/BackgroundPics/bg3.png
+    - Assets/BackgroundPics/bg3.png.meta
+    - Assets/BackgroundPics/mini1.png
+    - Assets/BackgroundPics/mini1.png.meta
+    - Assets/BackgroundPics/minibg.png
+    - Assets/BackgroundPics/minibg.png.meta
     - Assets/BackgroundPics/subway.png
     - Assets/BackgroundPics/subway.png.meta
     - Assets/BackgroundPics/title.png
     - Assets/BackgroundPics/title.png.meta
+    - Assets/MOOG.prefab
+    - Assets/MOOG.prefab.meta
+    - Assets/NextBlock.prefab
+    - Assets/NextBlock.prefab.meta
     - Assets/Scenes.meta
     - Assets/Scenes/EndScene.unity
     - Assets/Scenes/EndScene.unity.meta
     - Assets/Scenes/Extras.unity
     - Assets/Scenes/Extras.unity.meta
-    - Assets/Scenes/Minigame1.unity
-    - Assets/Scenes/Minigame1.unity.meta
-    - Assets/Scenes/Minigame2.unity
-    - Assets/Scenes/Minigame2.unity.meta
-    - Assets/Scenes/Minigame3.unity
-    - Assets/Scenes/Minigame3.unity.meta
+    - Assets/Scenes/Minigame.unity
+    - Assets/Scenes/Minigame.unity.meta
     - Assets/Scenes/Scene1.unity
     - Assets/Scenes/Scene1.unity.meta
     - Assets/Scenes/Scene2.unity
@@ -42,6 +48,8 @@ MonoBehaviour:
     - Assets/Scenes/Scene3.unity.meta
     - Assets/Scenes/Scene4.unity
     - Assets/Scenes/Scene4.unity.meta
+    - Assets/Scenes/Scene45.unity
+    - Assets/Scenes/Scene45.unity.meta
     - Assets/Scenes/Scene5.unity
     - Assets/Scenes/Scene5.unity.meta
     - Assets/Scenes/Scene6.unity
@@ -55,12 +63,27 @@ MonoBehaviour:
     - Assets/Scenes/Train.unity
     - Assets/Scenes/Train.unity.meta
     - Assets/Scripts.meta
+    - Assets/Scripts/ClickScript.cs
+    - Assets/Scripts/ClickScript.cs.meta
     - Assets/Scripts/Menus.cs
     - Assets/Scripts/Menus.cs.meta
     - Assets/Scripts/NextScene.cs
     - Assets/Scripts/NextScene.cs.meta
     - Assets/Scripts/PlayerController.cs
     - Assets/Scripts/PlayerController.cs.meta
+    - Assets/Sprites.meta
+    - Assets/Sprites/band.png
+    - Assets/Sprites/band.png.meta
+    - Assets/Sprites/button1.png
+    - Assets/Sprites/button1.png.meta
+    - Assets/Sprites/button2.png
+    - Assets/Sprites/button2.png.meta
+    - Assets/Sprites/button3.png
+    - Assets/Sprites/button3.png.meta
+    - Assets/Sprites/inst1.png
+    - Assets/Sprites/inst1.png.meta
+    - Assets/Sprites/inst2.png
+    - Assets/Sprites/inst2.png.meta
     - Assets/TextMesh Pro.meta
     - Assets/TextMesh Pro/Documentation.meta
     - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
@@ -137,7 +160,7 @@ MonoBehaviour:
     - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

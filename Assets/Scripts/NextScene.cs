@@ -8,7 +8,7 @@ public class NextScene : MonoBehaviour
     // allows next scene to be entered
     public string newGameScene;
 
-    void OnTriggerenter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         // loads next scene on collision
         SceneManager.LoadScene(newGameScene);
