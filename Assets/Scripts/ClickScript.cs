@@ -11,7 +11,13 @@ public class ClickScript : MonoBehaviour
     }
 
     void OnMouseDown(){
-        //if (theCollision.gameObject.tag == "piece");
+        /*if (theCollision.gameObject.tag == "piece");
         Debug.Log("Trash picked up");
+
+        //if(Input.GetMouseButton(0))
+        {
+
+        }
+        */
     }
 }

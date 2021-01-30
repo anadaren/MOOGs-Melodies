@@ -21,6 +21,8 @@ MonoBehaviour:
     - Assets/BackgroundPics/bg2.png.meta
     - Assets/BackgroundPics/bg3.png
     - Assets/BackgroundPics/bg3.png.meta
+    - Assets/BackgroundPics/bg6.png
+    - Assets/BackgroundPics/bg6.png.meta
     - Assets/BackgroundPics/mini1.png
     - Assets/BackgroundPics/mini1.png.meta
     - Assets/BackgroundPics/minibg.png
@@ -31,6 +33,9 @@ MonoBehaviour:
     - Assets/BackgroundPics/title.png.meta
     - Assets/MOOG.prefab
     - Assets/MOOG.prefab.meta
+    - Assets/Music.meta
+    - Assets/Music/Mus_Level1.mp3
+    - Assets/Music/Mus_Level1.mp3.meta
     - Assets/NextBlock.prefab
     - Assets/NextBlock.prefab.meta
     - Assets/Scenes.meta
@@ -71,19 +76,33 @@ MonoBehaviour:
     - Assets/Scripts/NextScene.cs.meta
     - Assets/Scripts/PlayerController.cs
     - Assets/Scripts/PlayerController.cs.meta
+    - Assets/Scripts/Texts.cs
+    - Assets/Scripts/Texts.cs.meta
     - Assets/Sprites.meta
     - Assets/Sprites/band.png
     - Assets/Sprites/band.png.meta
+    - Assets/Sprites/bandhead.png
+    - Assets/Sprites/bandhead.png.meta
     - Assets/Sprites/button1.png
     - Assets/Sprites/button1.png.meta
     - Assets/Sprites/button2.png
     - Assets/Sprites/button2.png.meta
     - Assets/Sprites/button3.png
     - Assets/Sprites/button3.png.meta
+    - Assets/Sprites/button4.png
+    - Assets/Sprites/button4.png.meta
     - Assets/Sprites/inst1.png
     - Assets/Sprites/inst1.png.meta
     - Assets/Sprites/inst2.png
     - Assets/Sprites/inst2.png.meta
+    - Assets/Sprites/inst3.png
+    - Assets/Sprites/inst3.png.meta
+    - Assets/Sprites/moog1.png
+    - Assets/Sprites/moog1.png.meta
+    - Assets/Sprites/mooghead.png
+    - Assets/Sprites/mooghead.png.meta
+    - Assets/Sprites/text.png
+    - Assets/Sprites/text.png.meta
     - Assets/TextMesh Pro.meta
     - Assets/TextMesh Pro/Documentation.meta
     - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
@@ -160,7 +179,7 @@ MonoBehaviour:
     - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1748146998455917241, guid: c190d4894058a1b41871a158edd4042a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.93
+      value: -2.56
       objectReference: {fileID: 0}
     - target: {fileID: 1748146998455917241, guid: c190d4894058a1b41871a158edd4042a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -263,6 +263,71 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &800990168
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7502000093386995593, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: newGameScene
+      value: Scene3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995596, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0394206
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995603, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_Name
+      value: NextBlock (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
 --- !u!1001 &1346892243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -272,7 +337,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7502000093386995593, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
       propertyPath: newGameScene
-      value: Minigame1
+      value: Scene4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502000093386995596, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
       propertyPath: m_RootOrder
@@ -280,7 +349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.301332
+      value: 8.16
       objectReference: {fileID: 0}
     - target: {fileID: 7502000093386995599, guid: beddb63fc93ef9941ba4d345ab1e10a0, type: 3}
       propertyPath: m_LocalPosition.y
