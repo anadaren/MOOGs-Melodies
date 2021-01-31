@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     public AudioSource winSound;
     public AudioSource loseSound;
 
+    public string nextScene;
 
     // Start is called before the first frame update
     void Start()
@@ -121,6 +122,6 @@ public class GameManager : MonoBehaviour
     IEnumerator ExampleCoroutine()
     {
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("train");
+        SceneManager.LoadScene(nextScene);
     }
 }

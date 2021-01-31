@@ -12,6 +12,5 @@ public class NextScene : MonoBehaviour
     {
         // loads next scene on collision
         SceneManager.LoadScene(newGameScene);
-         Debug.Log("Hello: ");
     }
 }
