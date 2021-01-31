@@ -36,14 +36,14 @@ public class Minigames : MonoBehaviour
 
     void OnMouseDown()
     {
-        theSprite.color = new Color(theSprite.color.r,  theSprite.color.g, theSprite.color.b, 1f);
+        theSprite.color = new Color(theSprite.color.r,  theSprite.color.g, theSprite.color.b, .50f);
         buttonSound.Play();
 
     }
 
     void OnMouseUp()
     {
-        theSprite.color = new Color(theSprite.color.r,  theSprite.color.g, theSprite.color.b, 0.5f);
+        theSprite.color = new Color(theSprite.color.r,  theSprite.color.g, theSprite.color.b, 1f);
         theGM.ColorPressed(thisButtonNumber);
         buttonSound.Stop();
     }

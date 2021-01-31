@@ -9,14 +9,23 @@ public class GameManager : MonoBehaviour
     public SpriteRenderer[] buttons;
     public AudioSource[] buttonSounds;
 
-    private int buttonSelect;
-
     public float stayPressed;
     private float stayPressedCounter;
 
-    private int[] gameOne = {1,2,3,4,1};
-    private int[] gameTwo = {1,4,1,4,3,4,2,1};
-    private int[] gameThree = {3,4,3,1,4,2,2,1,3,4};
+    public float waitBetweenPressed;
+    private float waitBetweenPressedCounter;
+
+    private bool shouldBePressed;
+    private bool shouldNotBePressed;
+
+    //public List<int> gameOne = new List<int>(){1,2,3,4,1};
+    //public List<int> gameTwo = new List<int>(){1,4,1,4,3,4,2,1};
+    //public List<int> gameThree = new List<int>(){3,4,3,1,4,2,2,1,3,4};
+    public List<int> game;
+    private int positionInSequence;
+
+    private bool gameActive;
+    private int inputInSequence;
 
     public int[] playerInput;
 
@@ -33,44 +42,85 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(stayPressedCounter > 0)
+        if(shouldBePressed)
         {
             stayPressedCounter -= Time.deltaTime;
-        } else {
-            buttons[buttonSelect].color = new Color(buttons[buttonSelect].color.r+30, buttons[buttonSelect].color.g+30, buttons[buttonSelect].color.b+30, 1f);
+            if(stayPressedCounter < 0)
+            {
+                buttons[game[positionInSequence]].color = new Color(buttons[game[positionInSequence]].color.r, buttons[game[positionInSequence]].color.g, buttons[game[positionInSequence]].color.b, 1f);
+                buttonSounds[game[positionInSequence]].Stop();
+                shouldBePressed = false;
+
+                shouldNotBePressed = true;
+                waitBetweenPressedCounter = waitBetweenPressed;
+
+                positionInSequence++;
+            }
+        }
+
+        if(shouldNotBePressed)
+        {
+            waitBetweenPressedCounter -= Time.deltaTime;
+
+            //checks to see if sequence is over to ley player play
+            if(positionInSequence >= game.Count)
+            {
+                shouldNotBePressed = false;
+                gameActive = true;
+            } else {
+                if(waitBetweenPressedCounter < 0)
+                {
+                    buttons[game[positionInSequence]].color = new Color(buttons[game[positionInSequence]].color.r, buttons[game[positionInSequence]].color.g, buttons[game[positionInSequence]].color.b, .75f);
+                    buttonSounds[game[positionInSequence]].Play();
+
+                    stayPressedCounter = stayPressed;
+                    shouldBePressed = true;
+                    shouldNotBePressed = false;
+                }
+            }
         }
     }
 
     public void StartGame()
     {
-        buttonSelect = gameOne[0];
-        buttons[buttonSelect].color = new Color(buttons[buttonSelect].color.r-1, buttons[buttonSelect].color.g-1, buttons[buttonSelect].color.b-1, 1f);
-        
+        //resets values
+        positionInSequence = 0;
+        inputInSequence = 0;
+
+        buttons[game[positionInSequence]].color = new Color(buttons[game[positionInSequence]].color.r, buttons[game[positionInSequence]].color.g, buttons[game[positionInSequence]].color.b, .5f);
+        buttonSounds[game[positionInSequence]].Play();
+
         stayPressedCounter = stayPressed;
-        //buttonSounds[activeSequence[positionInSequence]].Play();
+        shouldBePressed = true;
+        
     }
 
     public void ColorPressed(int whichButton)
     {
-        /*if(whichButton == 1)
+        if(gameActive)
         {
-            Debug.Log("Correct");
-        } else {
-            Debug.Log("Wrong");
-        }*/
-        if(playerInput.Equals(gameOne))
-        {
-            winSound.Play();
-            SceneManager.LoadScene("train");
-        } else if(playerInput.Equals(gameTwo)) {
-            winSound.Play();
-            SceneManager.LoadScene("train");
-        } else if(playerInput.Equals(gameThree)) {
-            winSound.Play();
-            SceneManager.LoadScene("train");
-        } else {
-            loseSound.Play();
-            SceneManager.LoadScene("Minigame");
+            if(game[inputInSequence] + 1 == whichButton)
+            {
+                inputInSequence++;
+                if(inputInSequence >= game.Count)
+                {
+                    winSound.Play();
+                    gameActive = false;
+                    StartCoroutine(ExampleCoroutine());
+                }
+            } else {
+                loseSound.Play();
+                gameActive = false;
+            }
         }
+
+
+
+    }
+
+    IEnumerator ExampleCoroutine()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("train");
     }
 }
