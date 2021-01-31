@@ -24,6 +24,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene4.unity
     guid: c2763cd09ed23b24cbe1b63dd5cc9f68
   - enabled: 1
-    path: Assets/Scenes/Minigame.unity
+    path: Assets/Scenes/Minigame1.unity
     guid: f829fe6a9d4f4bc419ecbfe94dd2c173
+  - enabled: 1
+    path: Assets/Scenes/Minigame2.unity
+    guid: 603d30b6a0e7c0346b7003b98e3cf157
+  - enabled: 1
+    path: Assets/Scenes/Minigame3.unity
+    guid: 7158b20338f19554ab0209733d1a8bb2
+  - enabled: 1
+    path: Assets/Scenes/Scene5.unity
+    guid: 19837614729a3364a90313c353541715
+  - enabled: 1
+    path: Assets/Scenes/Scene6.unity
+    guid: 3de4258b24647d043be23c8ddae26bf6
+  - enabled: 1
+    path: Assets/Scenes/Scene7.unity
+    guid: c92f06c93e1ef5b4e90f21d88daabf6b
+  - enabled: 1
+    path: Assets/Scenes/Scene8.unity
+    guid: 576563c338b98bd43b5cb863001075a6
   m_configObjects: {}

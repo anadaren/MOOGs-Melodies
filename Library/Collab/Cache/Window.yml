@@ -23,6 +23,8 @@ MonoBehaviour:
     - Assets/BackgroundPics/bg3.png.meta
     - Assets/BackgroundPics/bg6.png
     - Assets/BackgroundPics/bg6.png.meta
+    - Assets/BackgroundPics/bg8.png
+    - Assets/BackgroundPics/bg8.png.meta
     - Assets/BackgroundPics/mini1.png
     - Assets/BackgroundPics/mini1.png.meta
     - Assets/BackgroundPics/minibg.png
@@ -31,47 +33,63 @@ MonoBehaviour:
     - Assets/BackgroundPics/subway.png.meta
     - Assets/BackgroundPics/title.png
     - Assets/BackgroundPics/title.png.meta
-    - Assets/MOOG.prefab
-    - Assets/MOOG.prefab.meta
     - Assets/Music.meta
+    - Assets/Music/Amb_Subway1.mp3
+    - Assets/Music/Amb_Subway1.mp3.meta
+    - Assets/Music/Amb_Subway2.mp3
+    - Assets/Music/Amb_Subway2.mp3.meta
+    - Assets/Music/Amb_Subway3.mp3
+    - Assets/Music/Amb_Subway3.mp3.meta
+    - Assets/Music/MG_G1T1.wav
+    - Assets/Music/MG_G1T1.wav.meta
+    - Assets/Music/MG_G1T2.wav
+    - Assets/Music/MG_G1T2.wav.meta
+    - Assets/Music/MG_G1T3.wav
+    - Assets/Music/MG_G1T3.wav.meta
+    - Assets/Music/MG_G1T4.wav
+    - Assets/Music/MG_G1T4.wav.meta
+    - Assets/Music/MG_G2T1.wav
+    - Assets/Music/MG_G2T1.wav.meta
+    - Assets/Music/MG_G2T2.wav
+    - Assets/Music/MG_G2T2.wav.meta
+    - Assets/Music/MG_G2T3.wav
+    - Assets/Music/MG_G2T3.wav.meta
+    - Assets/Music/MG_G2T4.wav
+    - Assets/Music/MG_G2T4.wav.meta
+    - Assets/Music/MG_G3T1.wav
+    - Assets/Music/MG_G3T1.wav.meta
+    - Assets/Music/MG_G3T2.wav
+    - Assets/Music/MG_G3T2.wav.meta
+    - Assets/Music/MG_G3T3.wav
+    - Assets/Music/MG_G3T3.wav.meta
+    - Assets/Music/MG_G3T4.wav
+    - Assets/Music/MG_G3T4.wav.meta
+    - Assets/Music/MG_Song1_.wav
+    - Assets/Music/MG_Song1_.wav.meta
+    - Assets/Music/MG_Song2.wav
+    - Assets/Music/MG_Song2.wav.meta
+    - Assets/Music/MG_Song3.wav
+    - Assets/Music/MG_Song3.wav.meta
     - Assets/Music/Mus_Level1.mp3
     - Assets/Music/Mus_Level1.mp3.meta
-    - Assets/NextBlock.prefab
-    - Assets/NextBlock.prefab.meta
-    - Assets/Scenes.meta
-    - Assets/Scenes/EndScene.unity
-    - Assets/Scenes/EndScene.unity.meta
-    - Assets/Scenes/Extras.unity
-    - Assets/Scenes/Extras.unity.meta
-    - Assets/Scenes/Minigame.unity
-    - Assets/Scenes/Minigame.unity.meta
-    - Assets/Scenes/Scene1.unity
-    - Assets/Scenes/Scene1.unity.meta
-    - Assets/Scenes/Scene2.unity
-    - Assets/Scenes/Scene2.unity.meta
-    - Assets/Scenes/Scene3.unity
-    - Assets/Scenes/Scene3.unity.meta
-    - Assets/Scenes/Scene4.unity
-    - Assets/Scenes/Scene4.unity.meta
-    - Assets/Scenes/Scene45.unity
-    - Assets/Scenes/Scene45.unity.meta
-    - Assets/Scenes/Scene5.unity
-    - Assets/Scenes/Scene5.unity.meta
-    - Assets/Scenes/Scene6.unity
-    - Assets/Scenes/Scene6.unity.meta
-    - Assets/Scenes/Scene7.unity
-    - Assets/Scenes/Scene7.unity.meta
-    - Assets/Scenes/Scene8.unity
-    - Assets/Scenes/Scene8.unity.meta
-    - Assets/Scenes/Scene9.unity
-    - Assets/Scenes/Scene9.unity.meta
-    - Assets/Scenes/Train.unity
-    - Assets/Scenes/Train.unity.meta
+    - Assets/Music/Mus_Level2.mp3
+    - Assets/Music/Mus_Level2.mp3.meta
+    - Assets/Music/Mus_Level3.mp3
+    - Assets/Music/Mus_Level3.mp3.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/MOOG.prefab
+    - Assets/Prefabs/MOOG.prefab.meta
+    - Assets/Prefabs/NextBlock.prefab
+    - Assets/Prefabs/NextBlock.prefab.meta
     - Assets/Scripts.meta
     - Assets/Scripts/ClickScript.cs
     - Assets/Scripts/ClickScript.cs.meta
+    - Assets/Scripts/GameManager.cs
+    - Assets/Scripts/GameManager.cs.meta
     - Assets/Scripts/Menus.cs
     - Assets/Scripts/Menus.cs.meta
+    - Assets/Scripts/Minigames.cs
+    - Assets/Scripts/Minigames.cs.meta
     - Assets/Scripts/NextScene.cs
     - Assets/Scripts/NextScene.cs.meta
     - Assets/Scripts/PlayerController.cs
@@ -79,6 +97,8 @@ MonoBehaviour:
     - Assets/Scripts/Texts.cs
     - Assets/Scripts/Texts.cs.meta
     - Assets/Sprites.meta
+    - Assets/Sprites/5c41d450e39d5d01c21da913.png
+    - Assets/Sprites/5c41d450e39d5d01c21da913.png.meta
     - Assets/Sprites/band.png
     - Assets/Sprites/band.png.meta
     - Assets/Sprites/bandhead.png
@@ -97,6 +117,14 @@ MonoBehaviour:
     - Assets/Sprites/inst2.png.meta
     - Assets/Sprites/inst3.png
     - Assets/Sprites/inst3.png.meta
+    - Assets/Sprites/minibutton1.png
+    - Assets/Sprites/minibutton1.png.meta
+    - Assets/Sprites/minibutton2.png
+    - Assets/Sprites/minibutton2.png.meta
+    - Assets/Sprites/minibutton3.png
+    - Assets/Sprites/minibutton3.png.meta
+    - Assets/Sprites/minibutton4.png
+    - Assets/Sprites/minibutton4.png.meta
     - Assets/Sprites/moog1.png
     - Assets/Sprites/moog1.png.meta
     - Assets/Sprites/mooghead.png
@@ -179,7 +207,7 @@ MonoBehaviour:
     - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

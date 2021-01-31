@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
    private Vector2 moveVelocity;
    public float speed;
 
+   public AudioSource moveSound;
+
  
    // Start is called before the first frame update
    void Start()
@@ -25,6 +27,8 @@ public class PlayerController : MonoBehaviour
        // Movement
        movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
        moveVelocity = movement.normalized * speed;
+
+        
 
    }
  
